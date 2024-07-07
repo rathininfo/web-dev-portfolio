@@ -57,19 +57,26 @@ padding: 0;}
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: left top, bottom right;
+    max-width: 1550px;
+    margin: 0 auto;
 }
 
 .header-container{
     height: 837px;
-    background: rgb(255, 248, 243);
+    max-width: 1550px;
+    margin: 0 auto;
+    
 }
+
+
 
 /* banner style */
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 35px 0 230px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .banner-content{
@@ -107,12 +114,18 @@ padding: 0;}
     margin-bottom: 30px;
 }
 
+.banner-man-image{
+    height: 668px;
+}
+
 /* nav style */
 nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 50px 230px;
+max-width: 1280px;
+margin: 0 auto;
+padding: 51px 0px;
 }
 
 nav h3{
@@ -143,4 +156,60 @@ nav ul {
     align-items: center;
     justify-content: center;
 
+}
+
+#main-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.About-section-Container{
+    width: 1280px;
+    height: 550px;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-content{
+    max-width: 827px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.about-title{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.about-description{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin: 10px 0px;
+}
+
+.about-address{
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+}
+
+.address-content {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgb(117, 117, 117);
 }
